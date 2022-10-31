@@ -1,0 +1,32 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 20px;
+  background-color: #EDF2EC;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  line-height: 35px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-family: 'Inika', serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+}
