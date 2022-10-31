@@ -28,5 +28,19 @@ p {
 
 .container {
   margin: 0 auto;
-  width: calc(100% - 40px);
+  width: calc(100% - 220px);
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  color:  #BDAE82;
+  transition: 0.3s ease-in-out;
 }
