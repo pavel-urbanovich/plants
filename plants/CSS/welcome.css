@@ -1,5 +1,6 @@
-.welcome {
+.welcome-section {
   padding-top: 50px;
+  padding-bottom: 68px;
 }
 
 .welcome-wrapper {
@@ -61,6 +62,13 @@
   line-height: 20px;
   padding: 12px 25.59px 11px 24.56px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.welcome-button:hover {
+  background-color: #E06733;
+  color: #FFFFFF;
+  transition: 0.4s ease-in;
 }
 
 .welcome-subdescription {

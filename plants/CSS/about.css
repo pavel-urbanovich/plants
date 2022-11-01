@@ -1,0 +1,33 @@
+.about-section {
+    background-color: #fff;
+    padding-bottom: 94px;
+}
+
+.about-wrapper {
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+    padding-top: 82px;
+}
+
+.subtitle {
+    max-width: 460px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #E06733;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 67px;
+}
+
+.about-subdescription {
+    font-family: 'Inter', sans-serif;
+    max-width: 605px;
+    line-height: 30px;
+    color: #636060;
+  }
