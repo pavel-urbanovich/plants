@@ -10,23 +10,36 @@
 
 .leafs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 17% 23% 17% 17%;
+  grid-template-rows: repeat(2, 46%);
 }
 
 .welcome-leaf:first-child {
   grid-column: 1 / 3;
+  align-self: flex-end;
 }
 
-/* .welcome-leaf:nth-child(2) {
+.welcome-leaf:nth-child(2) {
   align-self: end;
-} */
+  grid-column: 3;
+}
+
+.welcome-leaf:nth-child(3) {
+  grid-column: 1;
+}
+
+.welcome-leaf:nth-child(4) {
+  align-self: flex-end;
+}
+
+.welcome-leaf:nth-child(5) {
+  align-self: center;
+  grid-column: 4;
+  justify-self: flex-end;
+}
 
 .welcome-description {
   max-width: 558.87px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 47px; */
   align-self: baseline;
 }
 
