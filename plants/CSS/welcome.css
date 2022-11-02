@@ -65,7 +65,8 @@
   cursor: pointer;
 }
 
-.welcome-button:hover {
+.welcome-button:hover,
+.control-button:hover {
   background-color: #E06733;
   color: #FFFFFF;
   transition: 0.4s ease-in;
