@@ -60,9 +60,10 @@
   border-radius: 10px;
   font-size: 16px;
   line-height: 20px;
-  padding: 12px 25.59px 11px 24.56px;
+  padding: 11px 25.59px 11px 20.56px;
   text-transform: uppercase;
   cursor: pointer;
+  height: 44px;
 }
 
 .welcome-button:hover,
