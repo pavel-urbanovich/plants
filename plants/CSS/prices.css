@@ -92,6 +92,7 @@
 
 .price-image {
   object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 .image-2 {

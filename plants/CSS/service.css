@@ -33,6 +33,7 @@
   width: 161px;
   height: 50px;
   color: #E06733;
+  padding-top: 5px;
 }
 
 .image-wrapper {
@@ -86,4 +87,12 @@
 
 .control-button {
   cursor: pointer;
+}
+
+.title-right {
+  padding-right: 14px;
+}
+
+.title-left {
+  padding-left: 18px;
 }
