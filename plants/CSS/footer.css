@@ -1,0 +1,53 @@
+.footer {
+  background-color: #FFFFFF;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 132px;
+}
+
+.social_info {
+  display: flex;
+  list-style: none;
+  min-width: 188px;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+  padding: 0;
+  min-height: 32px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  ;
+}
+
+.social_info li img {
+  display: block;
+  margin: 0 auto;
+  transition: 0.5s ease-in-out;
+}
+
+.social_info li {
+  min-width: 32px;
+}
+
+.social_info li img:hover {
+  filter: invert(44%) sepia(95%) saturate(564%) hue-rotate(335deg) brightness(92%) contrast(90%);
+  transition: 0.3s;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  line-height: 50px;
+}
+
+.school {
+  line-height: 50px;
+  padding-left: 18px;
+}
