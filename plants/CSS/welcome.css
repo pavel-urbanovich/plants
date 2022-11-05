@@ -88,3 +88,28 @@
 .title-color {
   color: #499A18;
 }
+
+@media (max-width: 1439px) {
+  .welcome-section {
+    padding-bottom: 0px;
+  }
+  .leafs{
+    width: 47%;
+    order: 2;
+    visibility: hidden;
+    max-height: 435px;
+  }
+  .title {
+    font-size: 35px;
+    padding-top: 22px;
+    padding-bottom: 33px;
+  }
+  .welcome-subdescription {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 7px;
+    padding-bottom: 39px;
+    text-align: justify;
+    width: 87%;
+  }
+}

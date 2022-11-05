@@ -28,3 +28,9 @@
   cursor: pointer;
   color: #717171;
 }
+
+@media (max-width: 1339px) {
+  .contacts-wrapper {
+    flex-wrap: wrap;
+  }
+}

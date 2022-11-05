@@ -31,3 +31,21 @@
   line-height: 30px;
   color: #636060;
   }
+
+@media (max-width: 1339px) {
+  .about-wrapper {
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: center;
+  }
+  .content-section {
+    padding-top: 0px;
+  }
+  .subtitle {
+    font-size: 35px;
+    line-height: 46px;
+    max-width: 423px;
+    text-align: center;
+    align-self: center;
+  }
+}

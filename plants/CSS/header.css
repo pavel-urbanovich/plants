@@ -43,3 +43,10 @@
 .nav-container li {
   line-height: 50px;
 }
+
+@media (max-width: 1339px) {
+  .header-container {
+    align-items: center;
+    padding-top: 35px;
+  }
+}

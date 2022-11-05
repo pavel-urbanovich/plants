@@ -51,3 +51,9 @@ footer a {
   line-height: 50px;
   padding-left: 18px;
 }
+
+@media (max-width: 1339px) {
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+}

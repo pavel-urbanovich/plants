@@ -96,3 +96,9 @@
 .title-left {
   padding-left: 18px;
 }
+
+@media (max-width: 1339px) {
+  .control-wrapper {
+    flex-wrap: wrap;
+  }
+}
