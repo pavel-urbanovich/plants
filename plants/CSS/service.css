@@ -50,14 +50,10 @@
   max-width: 330px;
 }
 
-
 .service-image {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.image-content {
-  max-height: 350px;
+  display: block;
 }
 
 .service-title {
