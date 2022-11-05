@@ -47,3 +47,7 @@ a:hover {
   color:  #E06733;
   transition: 0.3s ease-in-out;
 }
+
+img {
+  mix-blend-mode: multiply;
+}
