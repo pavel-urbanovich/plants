@@ -33,6 +33,9 @@
   }
 
 @media (max-width: 1339px) {
+  .about-section {
+    padding-bottom: 51px;
+  }
   .about-wrapper {
     flex-wrap: wrap;
     padding-top: 40px;
@@ -47,5 +50,17 @@
     max-width: 423px;
     text-align: center;
     align-self: center;
+  }
+  .plant-image {
+    max-width: 250px;
+  }
+  .content-section {
+    gap: 50px;
+  }
+  .about-subdescription {
+    max-width: 667px;
+  }
+  .about-image {
+    padding-top: 68px;
   }
 }

@@ -50,14 +50,10 @@
   max-width: 330px;
 }
 
-
 .service-image {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.image-content {
-  max-height: 350px;
+  display: block;
 }
 
 .service-title {
@@ -101,4 +97,15 @@
   .control-wrapper {
     flex-wrap: wrap;
   }
+  .subtitle-color {
+    text-align: left;
+    padding-bottom: 42px;
+  }
+  .service-content {
+    padding-top: 60px
+  }
+  .image-wrapper {
+    gap: 40px;
+  }
+  
 }
