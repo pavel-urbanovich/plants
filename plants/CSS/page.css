@@ -48,6 +48,10 @@ a:hover {
   transition: 0.3s ease-in-out;
 }
 
+img {
+  mix-blend-mode: multiply;
+}
+
 @media (max-width: 1339px) {
   .container {
     width: calc(100% - 100px);
