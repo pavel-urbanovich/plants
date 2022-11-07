@@ -32,5 +32,27 @@
 @media (max-width: 1339px) {
   .contacts-wrapper {
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .contact-image {
+    align-self: center;
+    order: 3;
+    width: 200px;
+    height: 248.49px;
+    object-fit: contain;
+    margin-left: 20px;
+    padding-top: 0px;
+  }
+  .contact-color {
+    font-size: 40px;
+    line-height: 52px;
+    padding-left: 0px;
+    padding-top: 40px;
+  }
+  .conact-select {
+    margin-top: 57px;
+    margin-bottom: 250px;
   }
 }

@@ -55,5 +55,22 @@ footer a {
 @media (max-width: 1339px) {
   .footer-wrapper {
     flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 28px;
+    padding-bottom: 27px;
+  }
+  .info {
+    line-height: 24px;
+    gap: 22px;
+    min-width: 180px;
+  }
+  .school {
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-right: 3px;
+  }
+  .social_info {
+    margin: 0px;
+    padding-top: 16px;
   }
 }
