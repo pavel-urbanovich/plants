@@ -154,3 +154,50 @@
     padding-bottom: 66px;
   }
 }
+
+@media (max-width: 767px) {
+  .images{
+    display: none;
+  }
+  .price-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .subtitle-bold {
+    line-height: 30px;
+    padding-left: 0px;
+    padding-bottom: 39px;
+    text-align: center;
+  }
+  .price-description {
+    padding-top: 25px;
+  }
+  .price-btns {
+    padding: 29px 22px 29px 22px;
+  }
+  .price-BTN {
+    width: 180px;
+    height: 49.72px;
+    padding-left: 31px;
+  }
+  .price-btns {
+    gap: 13px;
+  }
+  .subtitle-information {
+    max-width: 230px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .contact-BTN {
+    align-self: center;
+  }
+  .price-wrapper {
+    padding-bottom: 42px;
+  }
+}

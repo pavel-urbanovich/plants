@@ -89,6 +89,44 @@
   color: #499A18;
 }
 
+.hamburger {
+  display: none;
+  padding-top: 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  z-index: 25;
+  gap: 8px;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  z-index: 125;
+  transition: all 0.3s ease-in-out;
+  background: #717171;
+}
+
+.hamburger.open .line1 {
+  transform: rotate(-45deg) translate(-4px, 10px);
+  
+}
+
+.hamburger.open .line2 {
+  opacity: 0;
+}
+
+.hamburger.open .line3 {
+  transform: rotate(45deg) translate(-5px, -9px);
+}
+
+.hamburger.open .line4 {
+  opacity: 0;
+}
+
+
 @media (max-width: 1439px) {
   .welcome-section {
     padding-bottom: 0px;
@@ -105,11 +143,56 @@
     padding-bottom: 33px;
   }
   .welcome-subdescription {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
     padding-left: 7px;
     padding-bottom: 39px;
     text-align: justify;
-    width: 87%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .leafs {
+    display: none;
+  }
+  .welcome-description {
+    max-width: fit-content;
+  }
+  .title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .welcome-section {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .welcome-subdescription {
+    width: 94%;
+  }
+}
+
+@media (max-width: 380px) {
+  .navigation {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .header-container {
+    padding-top: 36px;
+  }
+  .welcome-subdescription {
+    padding-left: 0px;
+    padding-bottom: 27px;
+  }
+  .title {
+    padding-bottom: 22px;
+  }
+  .welcome-button {
+    width: 122px;
+    height: 35px;
+    font-size: 14px;
+    padding: 0px;
   }
 }

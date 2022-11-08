@@ -64,3 +64,29 @@
     padding-top: 68px;
   }
 }
+
+@media (max-width: 380px) {
+  .subtitle {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .about-wrapper {
+    padding-top: 30px;
+  }
+  .about-subdescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .content-section {
+    gap: 13px;
+  }
+  .plant-image {
+    max-width: 150px;
+  }
+  .about-image {
+    padding-top: 0px;
+  }
+  .about-section {
+    padding-bottom: 21px;
+  }
+}

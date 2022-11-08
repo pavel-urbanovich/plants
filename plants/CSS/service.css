@@ -132,3 +132,40 @@
     padding-left: 3px;
   }
 }
+
+@media (max-width: 767px) {
+  .control-items {
+    flex-wrap: wrap;
+  }
+  .image-wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .service-content {
+    padding-top: 30px;
+    padding-bottom: 23px;
+  }
+  .subtitle-color {
+    max-width: 187px;
+    padding-bottom: 38px;
+  }
+  .control-button {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .control-items {
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .service-image {
+    width: 279px;
+    height: 352px;
+  }
+  .image-wrapper {
+    gap: 30px;
+  }
+}
