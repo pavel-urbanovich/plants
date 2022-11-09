@@ -15,10 +15,19 @@ function openMenu() {
 burger.addEventListener('click', openMenu);
 
 function closeMenu (event) {
-  if (event.target.classList.contains('nav-link')) {
+  if (event.target.classList.contains('nav-link') || event.target.classList.contains('nav-container')) {
     navigation.classList.remove('active');
     body.classList.remove('active');
     burger.classList.remove('open');
+  }
+  else {
+    for (let name of event.target.classList) {
+      if (name === 'navigation') {
+        navigation.classList.remove('active');
+        body.classList.remove('active');
+        burger.classList.remove('open');
+      }
+    }
   }
 }
 
