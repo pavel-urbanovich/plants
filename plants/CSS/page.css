@@ -18,6 +18,10 @@ body {
   line-height: 35px;
 }
 
+.body.active {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
