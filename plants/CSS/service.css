@@ -34,6 +34,7 @@
   height: 50px;
   color: #E06733;
   padding-top: 5px;
+  cursor: pointer;
 }
 
 .image-wrapper {
@@ -81,8 +82,14 @@
   border-bottom-right-radius: 20px;
 }
 
-.control-button {
-  cursor: pointer;
+.control-button.active-button {
+  background-color: #E06733;
+  color: #FFFFFF;
+  transition: 0.4s ease-in;
+  transition: all 0.5s;
+}
+.control-button.pointer {
+  pointer-events: none;
 }
 
 .title-right {
@@ -91,6 +98,11 @@
 
 .title-left {
   padding-left: 18px;
+}
+
+.image-content.effect {
+  filter: blur(4px);
+  transition: 0.6s ease-in-out;
 }
 
 @media (max-width: 1339px) {
