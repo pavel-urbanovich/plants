@@ -42,10 +42,10 @@
   cursor: pointer;
 }
 
-.price-BTN:hover {
+/* .price-BTN:hover {
   opacity: 0.6;
   transition: 0.3s;
-}
+} */
 
 .arrow-square {
   position: relative;
@@ -55,10 +55,16 @@
   background-color: #D9D9D9;
 }
 
+.arrow-square:hover {
+  background-color: #b3afaf;
+  transition: 0.3s;
+}
+
 .arrow {
   position: absolute;
-  left: 29%;
+  left: 30%;
   bottom: 34%;
+  pointer-events: none;
 }
 
 .subtitle-information {
@@ -109,6 +115,77 @@
 
 .price-description {
   padding-top: 44px;
+}
+.accordion-body {
+  display: block;
+}
+
+.accordion-item {
+  height: 50px;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+.accordion-item.show {
+  height: 158px;
+  background-color: #D6E7D2;
+  border-radius: 20px;
+}
+
+.accordion-item.show .price-BTN {
+  background-color: inherit;
+  border-radius: 0px;
+}
+
+.arrow-square.arrow-up .arrow {
+  transform: rotate(180deg);
+  bottom: 35%;
+  filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(201deg) brightness(123%) contrast(116%);
+  mix-blend-mode: screen;
+}
+
+.accordion-content {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 10px;
+  border-top: 0.5px solid #AEA1A1;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.accordion-body {
+  display: flex;
+  flex-direction: column;
+  max-width: 169px;
+  margin: 0 auto;
+}
+
+.accordion-button {
+  width: 86px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  background: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 3px;
+  font-weight: 700;
+}
+
+.accordion-price {
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.price-item {
+  font-size: 16px;
+  line-height: 20px;
+  color: #E06733;
+  font-weight: 700;
 }
 
 @media (max-width: 1339px) {

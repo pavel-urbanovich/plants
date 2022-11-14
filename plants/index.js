@@ -5,6 +5,7 @@ const container = document.querySelector('.header-container');
 const images = [...document.querySelectorAll('.image-content')];
 const controlWrapper = document.querySelector('.control-items');
 const controlButtons = [...document.querySelectorAll('.control-button')].splice(0, 3);
+const priceContainer = document.querySelector('.price-btns');
 let switchButton;
 
 
@@ -99,3 +100,28 @@ function addBlurEffect(event) {
 }
 
 controlWrapper.addEventListener('click', addBlurEffect)
+
+//accordion in section price
+
+function showAccordionBody(event) {
+  if (event.target.classList.contains('arrow-square')) {
+    event.target.closest('.accordion-item').classList.toggle('show');
+    event.target.classList.toggle('arrow-up');
+  } 
+  if (event.target.closest('.accordion-item').classList.contains('show')) {
+    const accordionItems = [...document.querySelectorAll('.accordion-item')].filter(item => item.classList.contains('show') === true);
+    const accordionArrows = [...document.querySelectorAll('.arrow-square')].filter(item => item.classList.contains('arrow-up') === true);
+    accordionItems.forEach(item => {
+      item.classList.remove('show');
+    });
+    accordionArrows.forEach(item => {
+      item.classList.remove('arrow-up');
+    });
+  event.target.closest('.accordion-item').classList.toggle('show');
+  event.target.classList.add('arrow-up');
+  }
+}
+
+priceContainer.addEventListener('click', showAccordionBody)
+
+
