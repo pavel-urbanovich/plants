@@ -138,6 +138,7 @@
     object-fit: contain;
     margin-left: 20px;
     padding-top: 0px;
+    margin-top: 14px;
   }
   .contact-color {
     font-size: 40px;
@@ -146,9 +147,12 @@
     padding-top: 40px;
   }
   .contact-select {
-    margin-top: 57px;
-    margin-bottom: 250px;
+    margin-bottom: 0px;
   }
+
+  .select {
+    margin-top: 57px;
+}
 }
 
 @media (max-width: 380px) {
